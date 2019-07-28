@@ -1,0 +1,64 @@
+{
+	"index.html": {
+		"resources": [
+			"imooc-chatlist.html",
+			"imooc-me.html"
+		],
+		"refer": [
+			"imooc-me.html",
+			"imooc-contact.html",
+			"imooc-chatlist.html",
+			"imooc-disscover.html"
+		]
+	},
+	"login.html": {
+		"refer": [
+			"login.html",
+			"index.html"
+		]
+	},
+	"imooc-me.html": {
+		"refer": [
+			"myface.html",
+			"mynickname.html",
+			"myQRCode.html",
+			"login.html"
+		]
+	},
+	"myface.html": {
+		"refer": [
+			"plugin/v3.1.6/myface-uploader.html"
+		]
+	},
+	"plugin/v3.1.6/myface-uploader.html": {
+		"resources": [
+			"/storage/emulated/0/tencent/qqfile_recv/%7B@UJ%(5BOCIIKC5SAH4DKPG.png"
+		]
+	},
+	"imooc-disscover.html": {
+		"refer": [
+			"searchFriends.html",
+			"scanme.html"
+		]
+	},
+	"searchFriends.html": {
+		"refer": [
+			"searchFriendsResult.html"
+		]
+	},
+	"scanme.html": {
+		"refer": [
+			"searchFriendsResult.html"
+		]
+	},
+	"imooc-contact.html": {
+		"refer": [
+			"chatting.html"
+		]
+	},
+	"imooc-chatlist.html": {
+		"refer": [
+			"chatting.html"
+		]
+	}
+}
